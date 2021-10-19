@@ -24,13 +24,13 @@ variable "environment" {
   default = "dev"
 }
 
-/*
+
 
 # AKS Input Variables
 
 # SSH Public Key for Linux VMs
 variable "ssh_public_key" {
-  default = "/Users/reka/ssh-keys-teerraform-aks-devops/aks-terraform-devops-ssh-key-ububtu.pub"
+  default = "$(sshkey.secureFilePath)"
   description = "This variable defines the SSH Public Key for Linux k8s Worker nodes"  
 }
 
@@ -47,4 +47,4 @@ variable "windows_admin_password" {
   default = "P@ssw0rd1234"
   description = "This variable defines the Windows admin password k8s Worker nodes"  
 }
-*/
+

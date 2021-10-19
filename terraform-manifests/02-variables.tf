@@ -30,7 +30,7 @@ variable "environment" {
 
 # SSH Public Key for Linux VMs
 variable "ssh_public_key" {
-  default = "$(sshkey.secureFilePath)"
+  default = "${sshkey.secureFilePath}"
   description = "This variable defines the SSH Public Key for Linux k8s Worker nodes"  
 }
 

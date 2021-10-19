@@ -29,10 +29,7 @@ variable "environment" {
 # AKS Input Variables
 
 # SSH Public Key for Linux VMs
-variable "ssh_public_key" {
-  default = "${sshkey.secureFilePath}"
-  description = "This variable defines the SSH Public Key for Linux k8s Worker nodes"  
-}
+variable "ssh_public_key" {}
 
 # Windows Admin Username for k8s worker nodes
 variable "windows_admin_username" {

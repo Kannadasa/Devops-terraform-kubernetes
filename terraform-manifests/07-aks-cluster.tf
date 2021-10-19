@@ -52,6 +52,7 @@ role_based_access_control {
   }
 }  
 
+/*
 # Windows Admin Profile
 windows_profile {
   admin_username            = var.windows_admin_username
@@ -76,6 +77,6 @@ network_profile {
 tags = {
   Environment = var.environment
 }
-
+*/
 
 }

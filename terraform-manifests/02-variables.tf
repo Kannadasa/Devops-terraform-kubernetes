@@ -24,6 +24,7 @@ variable "environment" {
   default = "dev"
 }
 
+/*
 
 # AKS Input Variables
 
@@ -46,4 +47,4 @@ variable "windows_admin_password" {
   default = "P@ssw0rd1234"
   description = "This variable defines the Windows admin password k8s Worker nodes"  
 }
-
+*/
